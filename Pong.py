@@ -1,3 +1,6 @@
+# DEPENDENCIES 
+install pygame
+
 import pygame as pyg
 import sys
 
