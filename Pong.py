@@ -1,8 +1,6 @@
 # DEPENDENCIES 
 # install pygame
-
 import pygame as pyg
-import sys
 
 pyg.init()
 
@@ -23,10 +21,8 @@ speed = 8
 player = pyg.Rect(10, 200, 25, 100)
 opponent = pyg.Rect(WIDTH - 35, 200, 25, 100)
 ball = pyg.Rect(400, 300, 25, 25)
-
 ball_speed_x = 5
 ball_speed_y = 5
-
 player_score = 0
 opponent_score = 0
 winner = None
